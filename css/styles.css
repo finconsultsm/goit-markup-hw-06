@@ -286,8 +286,6 @@ align-items: center;
 padding-bottom: 188px; */
 padding-top: 72px;
 padding-bottom: 72px;
-padding-left: 52px;
-padding-right: 52px;
 }
 
 .first-name {
@@ -1075,29 +1073,35 @@ margin-top: 0;
     display: none;
 }
 
-/* ------First  760------- */
+/* ------First  768------- */
 .first {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
 url(../images/Dark-bg-tab-min.jpeg);  
+padding-left: 136px;
+padding-right: 136px;
+max-width: 768px;
+margin: 0 auto;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution:2dppx),
 (min-resolution:192dpi) {
 .first {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/Dark-bg-tab-2-min.jpeg);  
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+url(../images/Dark-bg-tab-2-min.jpeg);  
 }
 
 .first-container {
-padding: 112px 136px;
 }
 
 .first-name {
+font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 max-width: 496px;
-margin-bottom: 36px;    
+margin-bottom: 36px;
+margin: 0 auto;
+margin-left: 0 auto
 }
 
 /* ------Non  760------- */
