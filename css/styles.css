@@ -159,7 +159,7 @@ position: fixed;
 top: 0;
 width: 100%;
 height: 100%;
-background-color: #fff;
+/* background-color: #fff; */
 visibility: hidden;
 opacity: 0;
 pointer-events: none;
@@ -167,14 +167,23 @@ padding: 24px 24px 40px 16px;
 display: flex;
 flex-direction: column;
 overflow: auto;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+background: #fcfcfc;
+z-index: 999;
 }
+
 .menu-close-btn {
+width: 24px;
+height: 24px; 
 display: block;
 margin-left: auto;
 margin-bottom: 24px;
 border: 1px solid #2e2f42;
 border-radius: 50%; 
 background-color: transparent;
+padding: 0;
+line-height: 0;
+cursor: pointer;
 }
 
 .mob-close-svg {
@@ -201,10 +210,10 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.mob-list-link:hover,
+/* .mob-list-link:hover,
 .mob-list-link:focus {
 color: #404bbf;
-}
+} */
 
 .current {
 }
@@ -223,9 +232,13 @@ letter-spacing: 0.02em;
 color: #434455;  
 }
 
-.mob-adress-link:hover,
+/* .mob-adress-link:hover,
 .mob-adress-link:focus {
 color: #404bbf;
+} */
+
+.mob-blue {
+color: #404bbf;  
 }
 
 .mob-sociale-svg {
